@@ -1,6 +1,6 @@
 # ReactHooks
 
-Reducer.js<br>
+### Reducer.js<br>
 다양한 컴포넌트 상황에 따라 다양한 상태를 다른 값으로 업데이트해 주고 싶을 때 사용하는 훅<br>
 기본 형태 <br>
 function reducer(state, action) {<br>
