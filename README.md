@@ -14,11 +14,11 @@ const [state, dispatch] = useReducer(reducer, { value : 0 });<br>
 useMemo는 함수형 컴포넌트 내부에서 발생하는 연산을 최적화할 수 있는 훅, <br>
 (렌더링에 관여하지 않는 연산 등을 수행시켜 최적화가 가능)<br>
 기본 형태 <br>
-const name = useMemo(func);
+const name = useMemo(func);<br><br>
 
 ### callback.js<br>
-useCallback은 주로 렌더링 성능 최적화에서 사용 만들어 놓은 함수를 재사용할 수 있다.
+useCallback은 주로 렌더링 성능 최적화에서 사용 만들어 놓은 함수를 재사용할 수 있다.<br><br>
 
 ### Ref.js<br>
-함수형 컴포넌트에서 ref를 쉽게 사용할 수 있도록 지원 및 렌더링과 상관없는 로컬 변수를 사용할 수 있다.
+함수형 컴포넌트에서 ref를 쉽게 사용할 수 있도록 지원 및 렌더링과 상관없는 로컬 변수를 사용할 수 있다.<br><br>
 
