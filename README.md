@@ -8,7 +8,7 @@ function reducer(state, action) {<br>
 }<br>
 const [state, dispatch] = useReducer(reducer, { value : 0 });<br>
 -> useReducer를 통해 Input State를 관리하는 코드를 짧고 깔끔하게 유지 가능<br>
-<br><br>
+<br>
 
 ### memo.js<br>
 useMemo는 함수형 컴포넌트 내부에서 발생하는 연산을 최적화할 수 있는 훅, <br>
